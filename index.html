@@ -10,22 +10,100 @@
 </head>
 <body>
     <div id="div1">
-        <h3 id="div1-sideh">AWARD WINNING</h3>
+        <h2 id="div1-sideh">AWARD WINNING</h2>
         <h1 id="div1-h"><b>DIGITAL MARKETING AGENCY</b></h1>
         <p id="p1">Morbi sed lacus nec risus finibus et fementum nibh. Pellentesque vitae ante at elit fringila ac at purus. 
         morbi sed lacus nec risus finibus et fementum</p>
         <img src="hero@2x.png" alt="" id="div1img">
-        <button id="contactbtn" onclick="openForm()">Contact Us</button>
+        <button id="contactbtn" onclick="window.location.href='https://sai-kishan-k.github.io/fyle2/'">Contact Us</button>
     </div>
     <div class="div2">
-        <h3 id="div2-sideh">WHAT WE DO</h3>
+        <h2 id="div2-sideh">WHAT WE DO</h2>
         <h1 id="div2-h">SERVICES PROVIDED FOR YOU</h1>
         <p id="p2">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
-        <img src="1@2x.png" id="img1" alt="">
-        <img src="2@2x.png" id="img2" alt="">
-        <img src="https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274__340.jpg" alt="" id="img3">
-        <img src="3@2x.png" alt="" id="img4">
+        <div class="container">
+        <img src="1@2x.png" id="img1" alt="" onmouseover="overlay()" onmouseleave="leave()">
+        <img src="2@2x.png" id="img2" alt="" onmouseover="overlay1()" onmouseleave="leave1()">
+        <img src="https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274__340.jpg" alt="" id="img3" onmouseover="overlay2()" onmouseleave="leave2()">
+        <img src="3@2x.png" alt="" id="img4" onmouseover="overlay3()" onmouseleave="leave3()">
+        <div id="overlay">
+            <img src="icon.svg" id="icon" alt="">
+            <h2 id="head">WEB DEVELOPMENT</h2>
+            <p id="p3">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+            <button id="readmore" onclick="window.location.href='https://www.fylehq.com/'">READ MORE</button>
+          </div>
+        </div>
+        </div>
+    <div class="div3">
+        <h2 id="div3-sideh">WHY CHOOSE US</h2>
+        <h1 id="div3-h">WHY WE ARE BEST</h1>
+        <img src="1.png" id="image1" alt="">
+        <img src="2.png" id="image2" alt="">
+        <img src="3.png" id="image3" alt="">
+        <img src="4@2x.png" id="image4" alt="">
+        <h3 class="imgsideh" id="img1sideh">Clarified vision and target</h3>
+        <h3 class="imgsideh" id="img2sideh">High Performance</h3>
+        <h3 class="imgsideh" id="img3sideh">Maintain Security</h3>
+        <h3 class="imgsideh" id="img4sideh">Better Strategy & Quality</h3>
+        <p class="imgcontent" id="imgcontent1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+        <p class="imgcontent" id="imgcontent1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+        <p class="imgcontent" id="imgcontent2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+        <p class="imgcontent" id="imgcontent3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+        <p class="imgcontent" id="imgcontent4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+        <h2 id="div3-sideh2">OUR PROJECT</h2>
+        <h1 id="div3-h2">WHY WE ARE BEST</h1>
+        <img class="image" id="imge1" src="image@2x.png" alt="">
+        <div class="box" id="box1" onclick="click1(this)">
+            <h3 class="sideh">Genderless Kei – Japan’s Hot</h3>
+            <p class="p01">Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+        </div>
+        <div class="box" id="box2" onclick="click2(this)">
+            <h3 class="sideh">Genderless Kei – Japan’s Hot</h3>
+            <p class="p01">Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>           
+        </div>
+        <div class="box" id="box3" onclick="click3(this)">
+            <h3 class="sideh">Genderless Kei – Japan’s Hot</h3>
+            <p class="p01">Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+        </div>
+        <div id="overlay2">
+                <h3 id="sideh1">Better Strategy & Quality</h3>
+                <p id="01">Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+        </div>
     </div>
-    <div></div>
+    <div class="div4">
+        <h2 id="div4-sideh">EXPERTS GROWTH</h2>
+        <h1 id="div4-h">OUR COMPANY GROWTH</h1>
+        <div class="smallbox" id="smlbox1">
+            <p class="count" id="num1">199+</p>
+            <img src="heart (2)@2x.png" alt="" class="image01">
+            <p class="content" id="cont1">Statisfied Customers</p>
+        </div>
+        <div class="smallbox" id="smlbox2">
+            <p class="count" id="num2">1591+</p>
+            <img src="/clock (3)@2x.png" alt="" class="image01">
+            <p class="content" id="cont2">Days Of Operation</p>
+        </div>
+        <div class="smallbox" id="smlbox3">
+            <p class="count" id="num3">283+</p>
+            <img src="/Path 4402@2x.png" alt="" class="image01">
+            <p class="content" id="cont3">Complete Project</p>
+        </div>
+        <div class="smallbox" id="smlbox4">
+            <p class="count" id="num4">75+</p>
+            <img src="/Path 4406@2x.png" alt="" class="image01">
+            <p class="content" id="cont3">Win Awards</p>
+        </div>
+    </div>
+    <div class="div5">
+        <h2 id="div5-sideh">CLIENT'S FEEDBACK</h2>
+        <h1 id="div5-h">PEOPLE SAY'S ABOUT US !</h1>
+        <p id="p4">Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+            Sections Bonorum et Malorum original.</p>
+        <p id="name">JANNAT TUMPA</p><br><p id="profession">- COO, AMERIMAR ENTERPRISES, INC.</p>
+        <footer>
+            <img src="NoPath - Copy.svg" alt="" id="footerimg">
+            <img src="Group 500@2x.png" alt="" id="footerimg2">
+        </footer>
+    </div>
 </body>
 </html>

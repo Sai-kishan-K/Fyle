@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Open+Sans&family=Roboto:wght@300&display=swap');
+
 #div1{
     top: 0px;
     left: 0px;
@@ -38,11 +39,9 @@
     margin-top: 502px;
     margin-left: 375px;
     width: 500px;
-    /* height: 83px; */
     text-align: left;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    /* font: normal normal normal 16px/30px Poppins; */
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -79,7 +78,7 @@
 #contactbtn:hover{opacity: 0.6;}
 
 .div2{
-    margin-top: 537px;
+    margin-top: 137px;
     margin-left: -4px;
     width: 1920px;
     height: 1030px;
@@ -118,7 +117,8 @@
     width: 584px;
     height: 83px;
     text-align: left;
-    font: normal normal normal 16px/30px Poppins;
+    font-family: 'Open Sans', sans-serif; ;
+    font: normal normal normal 16px/30px;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -155,4 +155,458 @@
     height: 526px;
     opacity: 1;
     position: absolute;
+}
+.container{
+    position: relative;
+    width: 50%;
+}
+#overlay{
+    margin-top: 401px;
+    width: 370px;
+    height: 526px;
+    color: #FFFFFF;
+    background: #FF3147 0% 0% no-repeat padding-box;
+    display: none;
+    transition: .5s ease;
+    position: absolute;
+  }
+#icon{
+    margin-top: 97px;
+    margin-left: 151px;
+    width: 57px;
+    height: 57px;
+    position:absolute;
+}
+#head{
+    margin-top: 201px;
+    margin-left: 59px;
+    width: 342px;
+    height: 24px;
+    position:absolute;
+}
+#p3{
+    margin-top: 266px;
+    margin-left: 40px;
+    width: 330px;
+    height: 54px;
+    position:absolute;
+}
+#readmore{
+    margin-top: 374px;
+    margin-left: 95px;
+    width: 185px;
+    font-weight: bolder;
+    color: #FF3147;
+    height: 50px;
+    position:absolute;
+}
+.div3{
+    margin-top: 237px;
+    margin-left: -4px;
+    width: 1920px;
+    height: 1030px;
+    background:  0% 0% no-repeat padding-box;
+    opacity: 1;
+    position:relative;
+}
+#div3-sideh{
+    margin-top: 167px;
+    margin-left: 857px;
+    width: 206px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    opacity: 1;
+}
+#div3-h{
+    margin-top: 11px;
+    margin-left: 746px;
+    width: 428px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+#image1{
+    margin-top: 46px;
+    margin-left: 375px;
+    width: 72px;
+    height: 72px;
+    opacity: 1;
+    position: absolute;
+}
+#image2{
+    margin-top: 46px;
+    margin-left: 675px;
+    width: 70px;
+    height: 65px;
+    opacity: 1;
+    position: absolute;
+}
+#image3{
+    margin-top: 46px;
+    margin-left: 975px;
+    width: 68px;
+    height: 75px;
+    opacity: 1;
+    position: absolute
+}
+#image4{
+    margin-top: 46px;
+    margin-left: 1275px;
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+    position: absolute
+}
+.imgsideh{
+    margin-top: 134px;
+    width: 259px;
+    height: 28px;
+    text-align: left;
+    font: normal normal medium 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute
+}
+#img1sideh{
+    margin-left: 375px;
+}
+#img2sideh{
+    margin-left: 675px;
+}
+#img3sideh{
+    margin-left: 975px;
+}
+#img4sideh{
+    margin-left: 1275px;
+}
+.imgcontent{
+    margin-top: 181px;
+    width: 256px;
+    height: 75px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font: normal normal normal 16px/26px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+#imgcontent1{
+    margin-left: 375px;
+}
+#imgcontent2{
+    margin-left: 675px;
+}
+#imgcontent3{
+    margin-left: 975px;
+}
+#imgcontent4{
+    margin-left: 1275px;
+}
+#div3-sideh2{
+    margin-top: 436px;
+    margin-left: 874px;
+    width: 172px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+#div3-h2{
+    margin-top: 500px;
+    margin-left: 746px;
+    width: 428px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+.image{
+    margin-top: 605px;
+    margin-left: 375px;
+    width: 770px;
+    height: 567px;
+    background: transparent url('img/image.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.box{
+    margin-left: 1175px;
+    width: 370px;
+    height: 189px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#box1{
+    margin-top: 605px;
+}
+#box2{
+    margin-top: 795px;
+}
+#box3{
+    margin-top:985px;
+}
+.sideh{
+    margin-top: 35px;
+    margin-left: 20px;
+    width: 287px;
+    height: 28px;
+    text-align: left;
+    font: normal normal medium 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+.p01{
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 293px;
+    height: 79px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font: normal normal normal 16px/28px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+#overlay2{
+    color:white;
+    margin-left: 1175px;
+    width: 370px;
+    height: 189px;
+    background: #FF3147 0% 0% no-repeat padding-box;
+    visibility: hidden;
+    transition: .5s ease;
+}
+.div4{
+    margin-top: 485px;
+    margin-left: -1px;
+    width: 1920px;
+    height: 602px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+}
+#div4-sideh{
+    margin-top: 100px;
+    margin-left: 847px;
+    width: 226px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+#div4-h{
+    margin-top: 164px;
+    margin-left: 682px;
+    width: 556px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+.smallbox{
+    margin-top: 269px;
+    width: 270px;
+    height: 233px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#smlbox1{
+    margin-left: 375px;
+}
+#smlbox2{
+    margin-left: 675px;
+}
+#smlbox3{
+    margin-left: 975px;
+}
+#smlbox4{
+    margin-left: 1275px;
+}
+.smallbox:hover{
+    box-shadow: 3px 6px 20px #672C2C1F;
+}
+#num1{
+    margin-left: 70px;
+    margin-top: 76px;
+    width: 140px;
+    height: 84px;
+    text-align: center;
+    font: normal normal 300 60px/65px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+#num2{
+    margin-left: 70px;
+    margin-top: 76px;
+    width: 140px;
+    height: 84px;
+    text-align: center;
+    font: normal normal 300 60px/65px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+#num3{
+    margin-left: 70px;
+    margin-top: 76px;
+    width: 140px;
+    height: 84px;
+    text-align: center;
+    font: normal normal 300 60px/65px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+#num4{
+    margin-left: 70px;
+    margin-top: 76px;
+    width: 140px;
+    height: 84px;
+    text-align: center;
+    font: normal normal 300 60px/65px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+.image01{
+    margin-top: 34px;
+    margin-left: 115px;
+    width: 39px;
+    height: 34px;
+}
+.content{
+    margin-top: 71px;
+    margin-left: 30px;
+    width: 206px;
+    height: 28px;
+    text-align: center;
+    font: normal normal 300 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+.div5{
+    height: 709px;
+    width: 1920px;
+    margin-top: 0px;
+    opacity: 1;
+    position: relative;
+}
+#div5-sideh{
+    margin-top: 60px;
+    margin-left: 839px;
+    width: 242px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+#div5-h{
+    margin-top: 100px;
+    margin-left: 661px;
+    width: 598px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+#p4{
+    margin-top: 185px;
+    margin-left: 554px;
+    width: 831px;
+    height: 62px;
+    text-align: left;
+    font: normal normal normal 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+}
+#name{
+    margin-top: 271px;
+    margin-left: 554px;
+    width: 170px;
+    height: 28px;
+    text-align: left;
+    font: normal normal bold 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #FF3147;
+    opacity: 1;
+    position: absolute;
+}
+#profession{
+    margin-top: 271px;
+    margin-left: 732px;
+    width: 376px;
+    height: 28px;
+    text-align: left;
+    font: normal normal 300 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #808080;
+    opacity: 1;
+    position: absolute;
+}
+#footerimg{
+    margin-top:471px;
+    margin-left: 0px;
+    width: 1920px;
+    height: 310px;
+    position: absolute;
+}
+#footerimg2{
+    margin-top: 601px;
+    margin-left: 375px;
+    width: 1170px;
+    height: 56px;
+    background: transparent url('img/Group 500.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
 }
